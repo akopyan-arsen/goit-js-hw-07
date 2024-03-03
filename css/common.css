@@ -97,3 +97,8 @@ input {
 .list-images {
   width: calc((100% - 2 * 24px) / 3);
 }
+
+.images {
+  object-fit: cover;
+  height: 300px;
+}
