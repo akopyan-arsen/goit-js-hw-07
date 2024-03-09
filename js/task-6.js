@@ -32,11 +32,5 @@ createButton.addEventListener('click', event => {
 });
 
 destroyButton.addEventListener('click', () => {
-  const inputValue = parseInt(input.value);
-  if (inputValue >= 1 && inputValue <= 100) {
-    createBox(inputValue);
-  }
-});
-destroyButton.addEventListener('click', () => {
   boxesContainer.innerHTML = '';
 });
